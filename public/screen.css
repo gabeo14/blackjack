@@ -12,49 +12,58 @@ body {
   font: 16px / 1 sans-serif;
 }
 
+h1, h2, h3 {
+  text-align: center;
+}
+
+button {
+  margin: 1em;
+  width: 95px;
+  height: 95px;
+  border-radius: 25%;
+}
+
 .dealer-hand {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .dealer-hand img {
-  width: 150px;
-  height: calc(var(--aspect-ratio) * 150);
+  width: 125px;
+  height: calc(var(--aspect-ratio) * 125);
 }
 
 
 .player-hand {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .player-hand img {
-  width: 150px;
-  height: calc(var(--aspect-ratio) * 150);
+  width: 125px;
+  height: calc(var(--aspect-ratio) * 125);
 }
 .header {
+  display: block;
+}
+
+.controls {
   display: flex;
   justify-content: center;
 }
-h1 {
-  text-align: center;
+
+.hits {
+ 
 }
-h2 {
-  text-align: center;
-}
-button {
-  width: 95px;
-  height: 95px;
-  border-radius: 50%;
+.stays {
   
 }
-.buttons {
-  display: flex;
-  justify-content: center
+.reset {
+ 
 }
-.buttons1 {
-  display: flex;
-  justify-content: center
+
+.hideme {
+  display: none;
 }
